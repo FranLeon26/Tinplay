@@ -376,7 +376,6 @@ footer .redes img {
     margin-left: 150px;
 }
 #producto {
-    height: 75vh;
     display: flex;
 }
 #producto .producto-individual {
@@ -390,6 +389,20 @@ footer .redes img {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+#producto .vistas-producto{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 150px;
+    border-radius: 20px;
+    width: 580px;
+    overflow: hidden;
+    box-shadow: 0px 10px 25px rgb(0, 0, 0, 0.5) ;
+}
+#producto .vistas-producto img {
+    width: 145px;
 }
 #producto .descripcion h2 {
     margin-top: 50px;
