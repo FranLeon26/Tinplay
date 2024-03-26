@@ -1,0 +1,518 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+    
+}
+p {
+    font-family:"Inter", sans-serif;
+    
+}
+body{
+    background-image: url(../images/background.jpg);
+}
+header{
+    height: 10vh;
+    background-color: red;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+nav{
+    margin-left: 150px ;
+    margin-right: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+    padding-top: 25px;
+    width: 400px;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: "Galada", cursive;
+    font-size: 20px;
+    
+}
+.logo{ 
+    padding-top: 15px;
+}
+#banner-slogan {
+    padding-top: 70px;
+}
+#banner-slogan .slider {
+    width: 1328px;
+    height: 500px;
+    margin: 10px auto 0;
+    overflow: hidden;
+    border-radius: 30px;
+}
+#banner-slogan .slider ul{
+    display: flex;
+    width: 500%;
+
+    animation: slide 15s infinite alternate ease-in-out;
+}
+#banner-slogan .slider li{
+    list-style: none;
+    width: 100%;   
+}
+#banner-slogan .slider img{
+    width: 100%;
+}
+#banner-slogan .slogan {
+    color: red;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 40px;
+    font-family: "Galada", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+#banner-slogan .firma-tinplay{
+    margin-left: 1000px ;
+}
+#productos{
+    padding-top: 400px;
+    padding-bottom: 400px;
+    background-image: url(../images/fondo-productos.svg);
+    background-position: center;
+    background-size: cover;
+}
+#productos h1 {
+    color: white;
+    margin-left: 150px;
+    font-family: inter;
+    font-size: 40px;
+    font-family: "Galada", cursive;
+
+}
+
+#productos p {
+    color: white;
+    margin-left: 150px;
+    font-size: 20px;
+    max-width: 900px;
+
+}
+
+.contenedor-products{
+    margin-top: 100px;
+    padding-bottom: 200px;
+    margin-left: 150px ;
+    margin-right: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+ h3 {
+    font-family: "Galada", cursive;
+    color: white;
+    font-size: 25px;
+    margin-top: 15px;
+}
+.contenedor-products .baquettin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenedor-products .bugattin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenedor-products .wagon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenedor-products .triciclo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenedor-products .surtidor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenedor-products .peluqueria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenedor-products div {
+    height: 262px;
+    width: 367px;
+    background-color: white;
+    box-shadow: 0px 10px 25px rgb(0, 0, 0, 0.3);
+    margin-top: 15px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center
+}
+.contenedor-products div .hover {
+    height: 262px;
+    width: 367px;
+    position: absolute;
+    margin-top: 0px;
+    background-color: rgb(0, 0, 0, 0.7) ;
+    opacity: 0;
+}
+.contenedor-products div .hover:hover {
+    opacity: 100;
+}
+.contenedor-products .ver-mas {
+    position: absolute;
+    height: 50px;
+    background-color: #505050;
+    display: flex;
+    align-items: center ;
+    margin-top: 227px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.contenedor-products .ver-mas h4 {
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+
+#como-comprar{
+    height: 50vh;
+}
+#como-comprar h1{
+    margin-left: 150px;
+    font-family: inter;
+    padding-top: 30px;
+    font-size: 40px;
+    font-family: "Galada", cursive;
+    color: #484848;
+
+}
+#como-comprar p{
+    margin-left: 150px;
+    font-family: inter;
+    padding-top: 20px;
+    font-size: 25px;
+    max-width: 1000px;
+}
+#como-comprar .compras{
+    margin-top: 50px;
+    display: flex;
+    margin-left: 150px;
+    margin-right: 150px;
+    justify-content: space-between;
+}
+#como-comprar .mercado-libre{
+    background-color: white;
+    border: solid 4px #F7E000;
+    width: 350px;
+    height: 83px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+#como-comprar .mercado-libre img {
+    padding-left: 10px;
+}
+#como-comprar .mercado-libre h4 {
+    font-family: "Inter", sans-serif;
+    padding-left: 25px;
+    font-size: 25px;
+    color: #F7E000;
+}
+#como-comprar .tienda-nube{
+    background-color: white;
+    border: solid 4px #2B3152;
+    width: 350px;
+    height: 83px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+#como-comprar .tienda-nube img {
+    padding-left: 10px;
+}
+#como-comprar .tienda-nube h4 {
+    font-family: "Inter", sans-serif;
+    padding-left: 25px;
+    font-size: 25px;
+    color: #2B3152;
+    
+}
+#como-comprar .whatsapp{
+    background-color: white;
+    border: solid 4px #00C307;
+    width: 350px;
+    height: 83px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+#como-comprar .whatsapp img {
+    padding-left: 10px;
+}
+#como-comprar .whatsapp h4 {
+    font-family: "Inter", sans-serif;
+    padding-left: 50px;
+    font-size: 25px;
+    color: #00C307;
+
+}
+#como-comprar .slider-infinito{
+    width: 75vw;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#como-comprar .slider-infinito .slider-track{
+    display: flex;
+    animation: scroll 40s linear infinite;
+    -webkit-animation: slider-infinito scroll 40s linear infinite ;
+    width: calc(200px * 16);
+}
+#como-comprar .slider-infinito .slide{
+    width: 200px;
+}
+#como-comprar .slider-infinito .slide img {
+    width: 100%;
+}
+#sobre-nosotros{
+    height: 45vh;
+}
+#sobre-nosotros h1{
+    margin-left: 150px;
+    font-family: inter;
+    padding-top: 30px;
+    font-size: 40px;
+    font-family: "Galada", cursive;
+    color: #484848;
+
+}
+#sobre-nosotros p {
+    max-width: 830px;
+    margin-left: 150px;
+}
+
+footer{
+    height: 80vh;
+    /*background-color: red;*/
+    background-image: url(../images/Maskgroup.svg);
+    
+}
+footer .contenedor-footer{
+    padding-top: 200px;
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+    height: 150px;
+}
+footer .marca-registrada h4{
+    font-family: "Inter", sans-serif;
+    color: white;
+}
+footer .contenedor-footer .contacto {
+    display: flex;
+    flex-direction: column;
+}
+footer .contenedor-footer .contacto a {
+    font-family: "Inter", sans-serif;
+    color: white; 
+}
+footer .redes{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+}
+footer .redes img {
+    width: 50px;
+    height: 50px;
+}
+
+@keyframes slide {
+    0%  {margin-left: 0%;}
+    15% {margin-left: 0%;}
+
+    20% {margin-left: -100%;}
+    35% {margin-left: -100%;}
+
+    40% {margin-left: -200%;}
+    55%{margin-left: -200%;}
+
+    60% {margin-left: -300%;}
+    75%{margin-left: -300%;}
+
+    80% {margin-left: -400%;}
+    100%{margin-left: -400%;}
+}
+
+@keyframes scroll {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0)
+    }
+    100% {
+        -webkit-transform: translateX(calc(-200px * 8));
+        transform: translateX(calc(-200px * 8))
+    }
+
+}
+
+/*seccion de producto*/
+.flecha{
+    margin-top: 100px;
+}
+.volver-home {
+    margin-left: 150px;
+}
+#producto {
+    height: 75vh;
+    display: flex;
+}
+#producto .producto-individual {
+    background-color: #D9D9D9;
+    margin-left: 150px ;
+    width: 580px;
+    height: 380px;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 25px rgb(0, 0, 0, 0.5) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#producto .descripcion h2 {
+    margin-top: 50px;
+    color: #484848;
+    font-family: "Galada", cursive;
+    margin-left: 50px;
+}
+#producto .descripcion p {
+    max-width: 600px;
+    margin-left: 50px;
+}
+#producto .descripcion .colores-disponibles{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 330px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+#producto .descripcion .colores-disponibles h4 {
+    font-family:"Inter", sans-serif;
+    color: #484848;
+}
+#producto .descripcion .colores-disponibles .colores {
+    display: flex;
+    justify-content: space-between;
+    width: 140px;
+}
+#producto .descripcion .colores-disponibles .colores .rojo {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 100px;
+    
+}
+#producto .descripcion .colores-disponibles .colores .negro {
+    width: 40px;
+    height: 40px;
+    background-color:black;
+    border-radius: 100px;
+}
+#producto .descripcion .colores-disponibles .colores .blanco {
+    width: 39px;
+    height: 39px;
+    background-color: white;
+    border: solid 1px black;
+    border-radius: 100px;
+}
+#producto .descripcion .botones-compras{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-top: 30px;
+    width: 500px;
+}
+#producto .descripcion .botones-compras .mercadolibre {
+    border: #F7E000 solid 3px;
+    background-color: white;
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#producto .descripcion .botones-compras .mercadolibre img{
+    width: 50px;
+    height: 50px;
+}
+#producto .descripcion .botones-compras .tiendanube {
+    border: solid 3px #2B3152;
+    background-color: white;
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#producto .descripcion .botones-compras .tiendanube img {
+    width: 50px;
+    height: 50px;
+}
+#producto .descripcion .botones-compras .wpp {
+    border: solid 3px #00C307;
+    background-color: white;
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#producto .descripcion .botones-compras .wpp img {
+    width: 30px;
+    height: 30px;
+}
+#otros-productos {
+    height: 80vh;
+    
+}
+#otros-productos h2 {
+    margin-left: 150px;
+    font-family:"Inter", sans-serif;
+    color: #484848;
+
+}
+#otros-productos .otros-productos-contenedor {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 140px;
+    margin-right: 90px;
+}
+#otros-productos .otros-productos-contenedor div {
+    margin-top: 30px;
+    height: 280px;
+    width: 400px;
+    background-color: #D9D9D9;
+    box-shadow: 0px 10px 25px rgb(0, 0, 0, 0.5) ;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
