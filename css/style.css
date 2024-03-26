@@ -378,6 +378,7 @@ footer .redes img {
 #producto {
     display: flex;
 }
+
 #producto .producto-individual {
     background-color: #D9D9D9;
     margin-left: 150px ;
@@ -390,6 +391,12 @@ footer .redes img {
     align-items: center;
     justify-content: center;
 }
+
+#producto .producto-individual img{
+    width: 370px;
+    height: 280px;
+}
+
 #producto .vistas-producto{
     display: flex;
     justify-content: space-between;
@@ -400,9 +407,11 @@ footer .redes img {
     width: 580px;
     overflow: hidden;
     box-shadow: 0px 10px 25px rgb(0, 0, 0, 0.5) ;
+    height: 95px;
 }
 #producto .vistas-producto img {
     width: 145px;
+    cursor: pointer;
 }
 #producto .descripcion h2 {
     margin-top: 50px;

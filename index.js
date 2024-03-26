@@ -2,10 +2,12 @@ function mostrarImagen(idImagen) {
   var imagen = document.getElementById("imagenMostrada");
 
   if (idImagen === "imagen1") {
-    imagen.src =
-      "https://dcdn.mitiendanube.com/stores/001/205/102/products/remera-lisa-fr-rj-11-ef4b6ca4b08c3f434315906905869409-640-0.jpg";
+    imagen.src = "../images/imagen1-grande.jpg";
   } else if (idImagen === "imagen2") {
-    imagen.src =
-      "https://ombudistribuidora.com.ar/wp-content/uploads/2016/03/remera.jpg";
+    imagen.src = "../images/imagen2-grande.jpg";
+  } else if (idImagen === "imagen3") {
+    imagen.src = "../images/imagen3-grande.jpg";
+  } else if (idImagen === "imagen4") {
+    imagen.src = "../images/imagen4-chica.jpg";
   }
 }
